@@ -1,26 +1,21 @@
-import java.util.Scanner;
-
 public class FlowControl15 {
 
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-
-        System.out.print("Enter a number: ");
-        int num = sc.nextInt();
-
-        int sum = 0;
-
-        while (num > 0) {
-
-            int digit = num % 10;
-            sum = sum + digit;
-            num = num / 10;
-
+        if (args.length == 0) {
+            System.out.println("Please enter an integer number");
+            return;
         }
 
-        System.out.println("Sum of digits = " + sum);
+        int n = Integer.parseInt(args[0]);
 
-        sc.close();
+        for (int i = 1; i <= n; i++) {
+
+            for (int j = 1; j <= i; j++) {
+                System.out.print("* ");
+            }
+
+            System.out.println();
+        }
     }
 }
