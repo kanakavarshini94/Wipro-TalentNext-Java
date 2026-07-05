@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class FlowControl1a {
+public class FlowControl01a {
 
     public static void main(String[] args) {
 
