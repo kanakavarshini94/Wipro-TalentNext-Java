@@ -1,4 +1,4 @@
-public class FlowControl06 {
+public class Assignment06 {
     public static void main(String[] args) {
 
         if (args.length < 2) {

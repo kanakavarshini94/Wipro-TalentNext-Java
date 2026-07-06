@@ -1,4 +1,4 @@
-public class FlowControl04 {
+public class Assignment04 {
 
     public static void main(String[] args) {
 
