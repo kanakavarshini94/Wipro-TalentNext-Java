@@ -6,8 +6,6 @@ public class Project1 {
 
         String empName[] = {"Ashish","Sushma","Rahul","Chahat","Ranjan","Suman","Tanmay"};
 
-        String joinDate[] = {"01/04/2009","23/08/2012","12/11/2008","29/01/2013","16/07/2005","01/01/2000","12/06/2006"};
-
         char desCode[] = {'e','c','k','r','m','e','c'};
 
         String department[] = {"R&D","PM","Acct","Front Desk","Engg","Manufacturing","PM"};
