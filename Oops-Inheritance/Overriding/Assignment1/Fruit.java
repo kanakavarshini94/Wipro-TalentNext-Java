@@ -1,0 +1,19 @@
+public class Fruit {
+
+    String name;
+    String taste;
+    String size;
+
+
+    // Constructor
+    public Fruit(String name, String taste, String size) {
+        this.name = name;
+        this.taste = taste;
+        this.size = size;
+    }
+
+
+    public void eat() {
+        System.out.println(name + " tastes " + taste);
+    }
+}
