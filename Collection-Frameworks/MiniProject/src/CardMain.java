@@ -31,6 +31,7 @@ public class CardMain {
 
         for(Card c:sorted.values()){
             System.out.println(c.symbol+" "+c.number);
+            sc.close();
         }
     }
 }
